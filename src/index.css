@@ -1,0 +1,32 @@
+.card {
+  transition: all 0.3s ease-in-out;
+}
+
+.card.collapsed {
+  max-height: 50px;
+  overflow: hidden;
+}
+
+.card.expanded {
+  max-height: 200px;
+}
+
+.deleted-card {
+  opacity: 0.5;
+  text-decoration: line-through;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.toggle-button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}
